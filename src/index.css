@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* #footer{
+  width:1420px;
+  background:rgb(4, 4, 31); 
+  overflow:auto;
+}
+.footerItem{
+  float: left;
+  margin-left: 190px;
+}
+.footerItem li{
+  color: white;
+  display: block;
+  text-decoration: none;
+} */
