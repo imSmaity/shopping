@@ -7,7 +7,7 @@ const Footer=()=>{
             <div className="col-12 p-3" style={{backgroundColor:'rgb(28, 35, 65)'}}>
                 <div className="container-fluid text-center text-md-left">
                     <div className="row">
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div className="col-4">
                             <h5 className="text-uppercase text-white">Get to Know Us</h5>
                             <ul className="list-unstyled">
                                 <li><a href="">About Us</a></li>
@@ -15,7 +15,7 @@ const Footer=()=>{
                                 <li><a href="">Gift a Smile</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div className="col-4">
                             <h5 className="text-uppercase text-white">Connect with Us</h5>
                             <ul className="list-unstyled">
                                 <li><a href="">Facebook</a></li>
@@ -23,7 +23,7 @@ const Footer=()=>{
                                 <li><a href="">Instagram</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div className="col-4">
                             <h5 className="text-uppercase text-white">Let Us Help You</h5>
                             <ul className="list-unstyled">
                                 <li><a href="">COVID-19 and Shop.IN</a></li>
