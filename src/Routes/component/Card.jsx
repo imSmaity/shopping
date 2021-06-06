@@ -10,7 +10,8 @@ function Card(props)
                 <div className="card-body">
                     <h3 className="card-title"><span>{props.cardTitle}</span></h3>
                         <Images srcImg={props.srcImg}/>
-                    <a className="card-link" href="#">See more</a>
+                    <a className="card-link" href={props.links}>See more</a>
+                        
                 </div>
             </div>
         </div>

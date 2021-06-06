@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 import LogIn from './LogIn';
 import SignIn from './SignIn';
 
@@ -8,7 +7,7 @@ function Head()
     return (
     <div className="row p-3" style={{backgroundColor:'black'}}>
         <div className="col-3">
-            <h2 style={{}}><a href="#homePage" className="text-white" style={{textDecoration: 'none'}}>Shop.IN</a></h2>
+            <h2 style={{}}><a href="home" className="text-white" style={{textDecoration: 'none'}}>Shop.IN</a></h2>
         </div>
         <div className="col-6">
             <form action="">
