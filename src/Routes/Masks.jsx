@@ -1,14 +1,29 @@
 import React from 'react';
+import {ItemCard} from './component/Card';
 import Head from './component/Head';
 import Navbar from './component/Navbar';
+import {masksCData} from './component/cData';
 
 const Masks = () =>{
     return ( 
-        <div className="bg-warning bg-gradient" id="homePage" style={{fontFamily: 'KoHo sans-serif'}}>
-                
+        
+        <>    
             <Head/>           {/*............Component*/}
             <Navbar/>			 {/*............Component*/}
-        </div>
+
+            {
+                masksCData.map((val,index)=>{
+                    return (
+                        <ItemCard                  
+                            srcImg={val.srcImg}
+                            productTitle={val.productTitle}
+                            price={val.price}
+                        />             
+                    );
+                })
+                
+            }
+        </>
     );
 }
 

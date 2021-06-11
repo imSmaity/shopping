@@ -8,7 +8,7 @@ import Footer from './component/Footer';
 
 const Home = () =>{
     return ( 
-        <div className="bg-warning bg-gradient" id="homePage" style={{fontFamily: 'KoHo sans-serif'}}>
+        <div className="" id="homePage" style={{fontFamily: 'KoHo sans-serif',backgroundColor:'lightblue'}}>
                 
             <Head/>           {/*............Component*/}
             <Navbar/>			 {/*............Component*/}

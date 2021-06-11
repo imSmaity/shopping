@@ -1,17 +1,18 @@
 import React from 'react';
 import LogIn from './LogIn';
 import SignIn from './SignIn';
+import './style.css';
 
 function Head()
 {
     return (
-    <div className="row p-3" style={{backgroundColor:'black'}}>
+    <div className="row p-4" style={{backgroundColor:'black'}}>
         <div className="col-3">
-            <h2 style={{}}><a href="home" className="text-white" style={{textDecoration: 'none'}}>Shop.IN</a></h2>
+            <h2><a href="/" className="text-white" style={{textDecoration: 'none'}}>Shop.IN</a></h2>
         </div>
         <div className="col-6">
             <form action="">
-                <div className="input-group" align="center">
+                <div className="input-group" align="center" id="search">
                     <input type="text" className="form-control" name="search" placeholder="Search..."/>
                     <div className="input-group-btn">
                         <button className="btn btn-default">
@@ -25,16 +26,17 @@ function Head()
                 </div>
             </form>
         </div>
-        <div className="col-2" >
-            <button className="btn btn-outline-primary " style={{float: 'right'}} data-target="#popUpLogin" data-toggle="modal">Login</button>
-            <button className="btn btn-outline-primary " style={{float: 'right',marginRight: '5px'}} data-target="#popUpSignin" data-toggle="modal">Sign in</button>
+        <div className="col-2 btn-group justify-content-center" >
+            <button className="btn btn-outline-primary rounded"  data-target="#popUpLogin" data-toggle="modal">Login</button>
+            <button className="btn btn-outline-primary rounded"  data-target="#popUpSignin" data-toggle="modal">Sign in</button>
             <SignIn/>
             <LogIn/>
         </div>
         <div className="col-1" >
             <button className="btn btn-default bg-white float-right">
-                <i className="fas fa-shopping-cart"></i>
+                <a href="cart"><i className="fas fa-shopping-cart fa-lg"></i></a>
             </button>
+            <span class="badge badge-secondary float-right">1</span>
         </div>
     </div>);
 }
